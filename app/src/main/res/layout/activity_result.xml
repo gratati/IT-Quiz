@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green"
+    android:orientation="vertical"
+    tools:ignore="ExtraText"
+    tools:context=".ResultActivity"
+    android:padding="16dp"
+    android:fitsSystemWindows="true">
+
+    >
+
+    <TextView
+        android:id="@+id/tvResultTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваш результат"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textStyle="bold"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/ivResultEmoji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvResultTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/smiley_face"
+        android:contentDescription="Result Emoji"
+        android:scaleX="2"
+        android:scaleY="2" />
+
+    <TextView
+        android:id="@+id/tvCorrectAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivResultEmoji"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:layout_marginTop="80dp"
+        android:text="Правильные ответы:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvIncorrectAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCorrectAnswers"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:text="Неправильные ответы:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvSkippedQuestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvIncorrectAnswers"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:text="Пропущено:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSkippedQuestions"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:text="Счет:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvScore"
+        android:layout_centerHorizontal="true"
+        android:text="Снова играть"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvRetry"
+        android:layout_centerHorizontal="true"
+        android:text="Поделитесь счетом"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvShare"
+        android:layout_centerHorizontal="true"
+        android:text="Оцените приложение"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvRate"
+        android:layout_centerHorizontal="true"
+        android:text="Домой"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:textStyle="bold"/>
+</RelativeLayout>

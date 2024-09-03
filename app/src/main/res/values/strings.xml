@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">IT_Quiz</string>
+    <string name="start_game">Начать игру</string>
+    <string name="score">Счет: %1$d</string>
+    <string name="question_number">%1$d/%2$d</string>
+    <string name="time">Время: %1$d</string>
+    <string name="question_1">Полная форма URL-адреса такова?</string>
+    <string name="question_2">Как расшифровывается аббревиатура HTML?</string>
+    <string name="question_3">Какой протокол используется для защиты информации при передаче?</string>
+    <string name="question_4">Какая компания разработала язык программирования Java?</string>
+    <string name="question_5">Что такое IP-адрес?</string>
+    <string name="question_6">Как называется процесс увеличения масштаба приложения?</string>
+    <string name="question_7">Какой язык используется для стилей веб-страниц?</string>
+    <string name="question_8">Кто создал операционную систему Linux?</string>
+    <string name="question_9">Какое расширение файла используется для сохранения веб-страницы?</string>
+    <string name="question_10">Что такое SQL?</string>
+
+    <!-- Опции ответов -->
+    <string name="option_a">Option A</string>
+    <string name="option_b">Option B</string>
+    <string name="option_c">Option C</string>
+    <string name="option_d">Option D</string>
+
+    <string name="next_question">Следующий вопрос</string>
+    <string name="time_up_title">Время закончилось!</string>
+    <string name="time_up_message">Переход к следующему вопросу.</string>
+    <string name="ok">OK</string>
+    <string name="correct_title">Правильно!</string>
+    <string name="incorrect_title">Неправильно!</string>
+    <string name="correct_answer_message">Правильный вариант ответа: %1$s</string>
+    <string name="your_result">Ваш результат</string>
+    <string name="correct_answers">Правильные ответы: %1$d из %2$d</string>
+    <string name="score_text">Счет: %d</string>
+    <string name="correct_answers_text">Правильные ответы: %d</string>
+    <string name="incorrect_answers_text">Неправильные ответы: %d</string>
+    <string name="skipped_questions_text">Пропущено: %d</string>
+
+    <string name="super_message">Супер! Так держать!</string>
+    <string name="better_message">Ты можешь лучше! Дерзай!</string>
+    <string name="retry">Снова играть</string>
+    <string name="share_score">Поделитесь счетом</string>
+    <string name="rate_app">Оцените приложение</string>
+    <string name="home">Домой</string>
+</resources>
