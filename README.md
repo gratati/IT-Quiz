@@ -23,4 +23,4 @@
 
 1. Клонируйте этот репозиторий на свой компьютер:
    ```bash
-   git clone https://github.com/gratati/ITQuiz.git
+   git clone https://github.com/gratati/IT-Quiz.git
